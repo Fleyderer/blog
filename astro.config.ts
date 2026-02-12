@@ -28,7 +28,7 @@ export default defineConfig({
   site: 'https://fleyderer.github.io',
   // Deploy to a sub path
   // https://astro-pure.js.org/docs/setup/deployment#platform-with-base-path
-  // base: '/astro-pure/',
+  base: '/blog/',
   trailingSlash: 'never',
   // root: './my-project-directory',
   server: { host: true },
